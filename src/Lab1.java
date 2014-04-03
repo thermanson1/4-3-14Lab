@@ -11,7 +11,7 @@ public class Lab1 {
     public static void main(String[] args) {
         //first task
         System.out.println("First Task: \n");
-        File data = new File("src" + File.separatorChar 
+        File data = new File(File.separatorChar + "temp" + File.separatorChar 
                         + "Lab1.txt");
 
   if (data.exists()){
